@@ -206,7 +206,7 @@ function handlePerformance(data: any): ReportData | false {
           duration: Number(item.duration.toFixed(2)) || 0,
           decodedBodySize: item.decodedBodySize || 0,
           nextHopProtocol: item.nextHopProtocol,
-          responseStatus: item.responseStatus || 404,
+          responseStatus: item.responseStatus || 0,
         }));
       }
     }
