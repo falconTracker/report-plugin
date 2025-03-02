@@ -25,3 +25,4 @@ pnpm-debug.log*
 ZJS-FT.zip
 /node_modules/
 temp
+/dist
